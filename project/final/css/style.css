@@ -26,6 +26,21 @@ body {
   line-height: 1.5;
 }
 
+.backgroundPlants {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../img/smallPlants2.png');
+  background-repeat: repeat;
+}
+
+.backgroundGardenCover {
+  background: url('../../img/wideGardenBackground.png');
+  background-size: cover;
+  color: white;
+}
+.backgroundSolarCover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/wideSolar.png');
+  background-size: cover;
+  color: white;
+}
 /* gives margin to the left and right sides*/
 main{
   margin-left: 20%;
