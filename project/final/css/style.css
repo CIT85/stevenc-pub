@@ -337,7 +337,10 @@ mark{
   .container_double {
     grid-template-columns: 25% 25% 25% 25%;
   } 
+  .container_double_only {
+    grid-template-columns: 50% 50%;
   /* reduce the text size of the content box */
+  }
   .box {
     font-size: 1.2rem;
   }
