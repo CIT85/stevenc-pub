@@ -228,6 +228,7 @@ mark{
     margin-right: 0;
   }
   .container_menu {
+    grid-template-columns: 50% 50%;
     max-width: 100%;
   }
   .menu_box{
@@ -253,7 +254,7 @@ mark{
       display: inline; 
   }
   .container_menu {
-    grid-template-columns: 33% 34% 33%;
+    grid-template-columns: 50% 50%;
     margin-inline:auto;
     flex-shrink: 0;
     max-width: 80%;
@@ -276,7 +277,7 @@ mark{
       display: inline; 
   }
   .container_menu {
-    grid-template-columns: 33% 34% 33%;
+    grid-template-columns: 50% 50%;
     margin-inline:auto;
     flex-shrink: 0;
     max-width: 70%;
@@ -303,9 +304,9 @@ mark{
   img {
      display: inline; 
   }
-  /* sets the main menu to a 6 item row and increases the width of the menu */
+  /* sets the main menu to a 4 item row and increases the width of the menu */
   .container_menu {
-    grid-template-columns: 16% 17% 17% 17% 17% 16%;
+    grid-template-columns: 25% 25% 25% 25%;
     margin-inline:auto;
     flex-shrink: 0;
     max-width: 60%;
