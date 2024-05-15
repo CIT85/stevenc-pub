@@ -59,6 +59,12 @@ ol{
   list-style-position: inside;
 }
 
+.left_align{
+  list-style-position:inside;
+  text-align: left;
+  padding-left: 3rem;
+}
+
 /* orange background with the full with of parent container */
 h1, h2{
   background-color:#F7A072;
@@ -72,6 +78,9 @@ h3{
   padding:2px;
   margin-left: 20%;
   margin-right: 20%;
+}
+h4{
+  text-align: left;
 }
 
 /* anchor link styling */
