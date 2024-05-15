@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Steven C">
+    <meta
+      name="description"
+      content="This page give the reader a chance to contact me">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"> 
+  </head>
+
+  <body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav aria-label="primary-navigation">
+          <h3>Menu</h3>
+          <ul class="container_menu">
+            <li class="menu_box">
+              <a href="gardening.html"><strong>Food and water security</strong></a>
+            </li>
+            <li class="menu_box">
+              <a href="finance.html"><strong>Financial independence</strong></a>
+            </li>
+            <li class="menu_box">
+              <a href="recycling.html"><strong>Reduce, reuse, recycle</strong></a>
+            </li>
+            <li class="menu_box">
+              <a href="energy.html"><strong>Energy saving and production</strong></a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+
+
+    <section id="contact">
+    
+    <h3>About This Site</h2>
+    <p>I created this site to inspire readers to learn a new skill and empower themselves.  I started gardening during 
+        Covid-19 in 2020.  It has had a very positive impact on my life in many ways.  I am finally starting to see the 
+        results and get some great harvests. </p>
+    <br>
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Send me a message</legend>
+            <p>
+              <label for="firstName">First Name:</label>
+              <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required
+                  autofocus>
+          </p>
+          <p>
+              <label for="lastName">Last Name:</label>
+              <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+          </p>
+            <p>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="5555555555"
+                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="address@email.com"
+                   required>
+          </p>
+            <p>
+              <label for="message">Your Message:</label>
+              <br>
+              <textarea name="message" id="message" cols="60" rows="20"
+                  placeholder="Type your message here"></textarea>
+            </p>
+            <p>
+            <label for="range">How would you rate this site? (100% being best) </label>
+            <br>
+            <input id="range" name="range" type="range">
+            </p>
+            <label for="yes_no_radio">Would you like an emailed response?</label>
+              <p>
+              <input type="radio" name="yes_no" checked>Yes</input>
+              <input type="radio" name="yes_no">No</input>
+              </p>
+            <button type="submit">Submit</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            <button type="reset">Reset</button>
+            <br>
+        </fieldset>
+        <br>
+
+    </form>
+    </section>
+
+    </main>
+    <footer>
+        <p>&lt;&lt;&lt; &copy; Steven C 2024 &gt;&gt;&gt;</p>
+        
+        <p><a href="site.html">Sitemap</a></p>
+        <p>
+          <a href="#">Back to Top</a>
+        </p>
+  
+        <p>Resources used for content generation:</p>
+        <p><a href="https://chat.openai.com/" target="_blank">ChatGPT</a></p>
+        <p><a href="https://ideogram.ai/" target="_blank">Ideogram</a></p>
+      </footer>
+  </body>
+</html>
